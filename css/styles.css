@@ -1,11 +1,8 @@
-html {
-  margin: 0;
-}
-
 body {
   margin: 0;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  background-color: #40514E;
 }
 
 h1 {
@@ -23,6 +20,36 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  font-family: 'Teko', sans-serif;
+  color: #11999E;
+}
+
+span {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2;
+}
+
+button {
+  margin: 50px 0 50px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  width: 2.5%;
+  border: 6px dotted #EAF6F6;
+  border-bottom: none;
+}
+.contact-me{
+  margin-top: 105px;
+}
 .image1 {
   width: 25%;
   float: left;
@@ -34,17 +61,14 @@ h2 {
   float: right;
   margin-left: 30px;
 }
-.img{
+
+.img {
   border-radius: 50%;
 }
 
-h3 {
-  font-family: 'Teko', sans-serif;
-  color: #11999E;
-}
-
-span {
-  text-decoration: underline;
+.intro {
+  width: 30%;
+  margin-left: 550px;
 }
 
 .top-container {
@@ -55,7 +79,6 @@ span {
 }
 
 .middle-container {
-  background-color: white;
   padding-top: 60px;
 }
 
@@ -63,7 +86,8 @@ span {
   background-color: #66BFBF;
   padding-top: 100px;
 }
-.footer-link{
+
+.footer-link {
   padding: 20px;
   color: #11999E;
 }
@@ -72,7 +96,6 @@ span {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
   padding: 50px;
 }
 
@@ -87,14 +110,9 @@ span {
   left: 300px;
   top: 400px;
 }
-button{
-  margin: 50px 0 50px 0;
 
-
-}
-
-.btn{
-  background-color:#66BFBF;
+.btn {
+  background-color: #66BFBF;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -104,16 +122,13 @@ button{
   border-radius: 12px;
 }
 
-a{
-  color: white;
-text-decoration: none;
+.hr2 {
+  display: inline-block;
+  margin-left: 650px;
+  margin-top: 70px;
 }
 
-
-hr {
-  width: 10%;
-}
-.last-p{
+.last-p {
   margin: 40px 0 40px 0;
-padding-bottom: 40px;
+  padding-bottom: 40px;
 }
